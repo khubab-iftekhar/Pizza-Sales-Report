@@ -2,7 +2,9 @@ Pizza Sales Analysis Dashboard Using SQL and Excel
 
 Objective
 
-This project aims to analyze pizza sales data to derive meaningful insights about sales performance, customer preferences, and operational efficiencies. This analysis is performed using SQL for querying the data and Excel for visualizing the results.
+**This project aims to analyze pizza sales data to derive meaningful insights about sales performance, customer preferences, and operational efficiencies. This analysis is performed using SQL for querying the data and Excel for visualizing the results.**
+
+**#Dashboard Link:-  ![Image](https://github.com/user-attachments/assets/d1d67a23-42bf-4a5a-b861-44aeaae13eb4)**
 
 Tools Used
 
@@ -26,7 +28,7 @@ Customer details (where applicable).
 
 Methodology
 
-Step 1: Data Import and Cleaning
+**Step 1: Data Import and Cleaning**
 
 SQL Database Setup:
 
@@ -48,7 +50,7 @@ Exported cleaned data from SQL to Excel for summarization.
 
 Checked for inconsistencies and applied basic transformations (e.g., text-to-columns).
 
-Step 2: Data Analysis with SQL
+**Step 2: Data Analysis with SQL**
 
 Key Queries Executed:
 
@@ -76,7 +78,7 @@ FROM pizzas
 INNER JOIN orders ON pizzas.pizza_id = orders.pizza_id
 GROUP BY category;
 
-Step 3: Data Visualization in Excel
+**Step 3: Data Visualization in Excel**
 
 Data Import:
 
